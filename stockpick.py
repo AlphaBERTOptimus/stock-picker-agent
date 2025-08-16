@@ -628,7 +628,7 @@ class AdvancedStockAI:
             response_parts.append(f"✅ **筛选结果**: 找到 {len(results)} 只符合条件的优质股票")
             response_parts.append(f"📊 **平均评分**: {avg_score:.1f}/100")
         else:
-            response_parts.append("❌ **暂无结果**:response_parts.append("❌ **暂无结果**: 当前条件下未找到符合要求的股票")
+            response_parts.append("❌ **暂无结果**: 当前条件下未找到符合要求的股票")
         
         return "\n".join(response_parts)
 
